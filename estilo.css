@@ -1,0 +1,217 @@
+#container {
+  background-color: #e5e5e5;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  text-align: center;
+}
+
+.caixa_dados {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: auto auto;
+  padding: 5vh 2vh;
+  justify-content: space-evenly;
+  max-width: 400px;
+  width: 90%;
+  background: #77bb88;
+  background-image: url(image/bg-green.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.umDado {
+  justify-content: center;
+}
+/* icons style */
+.icon-arrow-up-alt1 {
+  color: #007718;
+}
+.icon-arrow-down-alt1 {
+  color: rgb(141, 0, 0);
+}
+
+#lugar1 {
+  max-width: 130px;
+}
+#lugar2 img {
+  max-width: 130px;
+}
+
+#lugar2 {
+  max-width: 130px;
+}
+
+#lugar3 {
+  max-width: 130px;
+}
+
+#lugar4 {
+  max-width: 130px;
+}
+
+.percent {
+  display: inline-block;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.animacao {
+  animation-name: lancando;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes lancando {
+  0% {
+    top: 0px;
+  }
+  10% {
+    top: -25px;
+  }
+  20% {
+    top: -50px;
+  }
+  30% {
+    top: -75px;
+  }
+  40% {
+    top: -100px;
+  }
+  50% {
+    top: -125px;
+  }
+  60% {
+    top: -100px;
+  }
+  70% {
+    top: -75px;
+  }
+  80% {
+    top: -50px;
+  }
+  90% {
+    top: -25px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+#botoes {
+  margin: 1rem auto;
+}
+
+#btn {
+  width: 8rem;
+  height: 4rem;
+  font-size: 2rem;
+  background-color: #99eeaa;
+  border-radius: 0.6rem;
+}
+
+.btn_geral {
+  background-color: #99eeaa;
+  border: none;
+}
+
+#btn:active {
+  background-color: #23c543;
+}
+
+#maiorNumero {
+  margin: 0 auto;
+  margin-top: 1rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+  width: 15rem;
+}
+
+#btnMaiorNumero {
+  width: 70%;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+#btnMelhorNumero {
+  width: 70%;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+}
+
+#maiorMelhor {
+  margin: 0 auto;
+  margin-top: 1rem;
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+  width: 15rem;
+}
+
+.dadoAescolher img {
+  width: 6rem;
+}
+
+#inpMaiorNumero {
+  border: none;
+  width: 30%;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+#inpMelhorNumero {
+  border: none;
+  width: 30%;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.dadoAescolher {
+  display: inline-block;
+}
+
+.caixa_botoes_dadoAescolher {
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoes_dadoAescolher {
+  border: none;
+  background: #99eeaa;
+}
+
+.botoes_dadoAescolher:hover {
+  background-color: #23c543;
+}
+
+.botoes_dadoAescolher:active {
+  background-color: #17fc45;
+}
+
+.active {
+  background-color: #23c543;
+}
+
+.botoes_dadoAescolher_menos {
+  border: none;
+  background: #e66;
+}
+.botoes_dadoAescolher_menos:hover {
+  border: none;
+  background: rgb(247, 77, 77);
+}
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
